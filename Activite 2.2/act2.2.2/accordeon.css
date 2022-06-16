@@ -1,0 +1,74 @@
+body{
+	display: flex;
+	font-family: "Times New Roman", Times, serif;;
+}
+
+table{
+	border-spacing: 10px;
+}
+.{
+	display: flex;
+    flex-direction:column;
+	text-align: center;
+	font-size: 1em;
+}
+.k2{
+	display: flex;
+    flex-direction:row;
+	text-align: center;
+	font-size: 1em;
+}
+.numero{
+	display: block;
+	text-align: center;
+	font-size: 1em;
+}
+
+#tout{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+/* .lettre{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+} */
+.vert{
+	background-color: #105c05;
+}
+
+.orang{
+	background-color: #e64312;
+}
+
+.bleu{
+	background-color: #076185;
+}
+
+.jaune{
+	background-color: #eeb109;
+}
+.rose{
+	background-color: #e44f60;
+}
+
+.rouge{
+	background-color: #e91212;
+}
+
+.tabledeux{
+	margin-left: 135px;
+}
+
+.place{
+	margin-top: 25px;
+	float: right;
+}
+.box1{
+    border: 0px solid rgb(220, 224, 217);
+	background: inherit;
+	width: 600px;
+	height: 600 px;
+    padding-top: 0px;
+    
+}

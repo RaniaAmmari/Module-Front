@@ -1,0 +1,158 @@
+body{
+	display: flex;
+	font-family: "Times New Roman", Times, serif;;
+}
+
+table{
+	border-spacing: 5px;
+}
+
+td{
+	border: 0px solid black;
+	background: inherit;
+	width: 65px;
+	height: 80px;
+}
+
+.numero{
+	display: block;
+	text-align: center;
+	font-size: 0.6em;
+}
+
+.lettre{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.violet{
+	background-color: #7e6fb4;
+}
+
+.vertbleu{
+	background-color: #1fdfa5; 
+}
+
+.vert{
+	background-color: #7fd372;
+}
+
+.orang{
+	background-color: #db866c;
+}
+
+.bleu{
+	background-color: #064964;
+}
+
+.jaune{
+	background-color: #c5a344;
+}
+
+.jauneclaire{
+	background-color: #c0c945;
+}
+
+.orangelaire{
+	background-color: #c4ab93;
+}
+
+.rose{
+	background-color: #E68B95;
+}
+
+.rouge{
+	background-color: #C1618D;
+}
+
+.tabledeux{
+	margin-left: 135px;
+}
+
+.place{
+	margin-top: 25px;
+	float: right;
+}
+
+
+#tout{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 1024px){
+	table{
+		border-spacing: 3px;
+		}
+
+	.numero{
+		display: block;
+		text-align: center;
+		font-size: 5px;
+		}
+
+	td{
+		border: 0px solid black;
+		background: inherit;
+		width: 32px;
+		height: 40px;
+	}
+
+	.lettre{
+		font-size: 8px;
+		font-weight: bold;
+
+	}
+
+	.tabledeux{
+		margin-left: 87px;
+		margin-bottom: 16px;
+	}
+
+	.date{
+	font-size: 8px;
+	}
+
+	.place{
+		font-size: 8px;
+	}
+
+}
+
+@media screen and (max-width: 480px){
+	table{
+		border-spacing: 1.5px;
+		}
+
+	.numero{
+		display: block;
+		text-align: center;
+		font-size: 2px;
+		}
+
+	td{
+		border: 0px solid black;
+		background: inherit;
+		width: 16px;
+		height: 22px;
+	}
+
+	.tabledeux{
+		margin-left: 46px;
+	}
+
+	.place{
+		font-size: 5px;
+	}
+
+	.date{
+	font-size: 5px;
+	}
+
+
+	
+
+}
