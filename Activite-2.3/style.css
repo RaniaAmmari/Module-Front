@@ -68,3 +68,41 @@ nav{
         align-items: center;
         align-content: center;
     }
+    #globe-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #cards-carousel{display: flex;
+    flex-direction: row;
+    
+    }
+    .card{
+        border-color: white !important;
+    
+    }
+    .cards-global{
+    border-color: white !important;
+        margin:5rem;
+        padding:2rem;
+    
+    }
+    .card-img-top{
+        height: 300px;
+        width: 80px;
+    }
+    
+    .card-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin:2rem;
+        position: sticky;
+        font-size: small;
+    }
