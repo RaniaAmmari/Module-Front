@@ -1,0 +1,148 @@
+nav{
+    border-bottom: 1px solid rgb(233, 231, 231);
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search{
+     border: 1px solid rgb(233, 231, 231) ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 460px;
+     border-radius: 20px 20px;
+     font-size: 14px;
+     padding: 0;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 68, 178);
+    color: white;
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.nav-item3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-weight : bold;
+    
+}
+.nav-item4{
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+    font-weight : bold;
+    
+}
+
+#globe-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    opacity: 0.5;
+    }
+    .div2lignes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .logo-nav{
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap:10px;
+        align-items: center;
+        align-content: center;
+    }
+    .nav-link{
+        display: flex !important;
+        color: rgba(0, 0, 0, 0.575) !important;
+        font-size: small !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    #globe-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #cards-carousel{display: flex;
+    flex-direction: row;
+    
+    }
+    .card{
+        border-color: white !important;
+        margin: auto; 
+    }
+
+
+    .cards-global{
+    border-color: white !important;
+        margin:2rem;
+        padding:2rem;
+    
+    }
+    .card-img-top{
+        height: 300px;
+        width: 80px;
+    }
+    
+    .card-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+   
+    .footer-content {
+        display:flex !important;
+        flex-direction: column;
+        align-self:flex-end;
+        justify-content:flex-end; 
+      
+        color: #0c0c0c;
+       
+      }
+      .container {
+      
+        /* display:flex ;
+        flex-direction: row; */
+        align-items: flex-start;
+        width: auto;
+        height: 60px;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        background-color: #f8f1f1;
+        color: #0e0d0d;
+      
+    
+      }
+      .sticky-bottom{
+        width: 100% !important; 
+      }
+      .pull-left{
+
+        display:flex !important;
+        flex-direction:column;
+        align-self:start !important;
+        justify-content:start;
+      }
+      
+      
+          
