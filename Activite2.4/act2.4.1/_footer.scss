@@ -1,0 +1,43 @@
+
+#Tunisie {
+	border: 1px solid #E0E0E0;
+	padding-left: 30px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	font-size: 15px;
+}
+
+#footer {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 11px;
+	margin-bottom: 11px;
+	
+}
+footer {
+	background-color: #F5F5F5;
+	position: absolute;
+	bottom: 0;
+	width: 100%;}
+#Tunisie, .link_footer_right, .link_footer_left {
+	color: #666;
+}
+
+.link_footer_right, .link_footer_left {
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.link_footer_right:hover, .link_footer_left:hover {
+  text-decoration: underline;
+}
+
+.link_footer_right {
+	padding-left: 22px;
+}
+
+.link_footer_left {
+	padding-right: 23px;
+}

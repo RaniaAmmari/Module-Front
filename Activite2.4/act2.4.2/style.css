@@ -1,0 +1,98 @@
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: #222;
+}
+
+#grille {
+  width: 20px;
+  height: auto;
+  opacity: 0.9;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+#grille:hover {
+  background-color: rgb(131, 36, 36);
+  border: 1px rgb(141, 134, 134);
+  box-shadow: 1px 2px 2px 1px rgba(117, 46, 46, 0.25);
+}
+
+.firstbloc {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  align-items: center;
+}
+
+.nav {
+  margin: 10px;
+}
+
+.link {
+  color: #222;
+  text-decoration: none;
+  font-size: 20px;
+}
+.link:hover {
+  text-decoration: underline;
+  color: #0a0a0a;
+}
+
+.secondbloc {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+}
+
+.thirdbloc {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+  margin-left: 12px;
+}
+.thirdbloc.button {
+  background-color: #222;
+  margin-left: 6px;
+  margin-right: 6px;
+  padding-left: 17px;
+  padding-top: 10px;
+  padding-right: 17px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.thirdbloc.button .button:hover {
+  color: rgb(70, 66, 66);
+  border: 1px solid lightgray;
+  box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.25);
+}
+.thirdbloc.button {
+  background-color: #451245;
+  margin-left: 6px;
+  margin-right: 6px;
+  padding-left: 17px;
+  padding-top: 10px;
+  padding-right: 17px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.thirdbloc.button .button:hover {
+  color: rgb(70, 66, 66);
+  border: 1px solid lightgray;
+  box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.25);
+}/*# sourceMappingURL=style.css.map */

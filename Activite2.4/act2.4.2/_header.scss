@@ -1,0 +1,70 @@
+@use './button';
+#navbar {
+	display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: #222;
+}
+#grille {
+    width: 20px;
+    height: auto;
+      opacity: 0.9;
+      margin-top: 5px;
+      box-sizing: border-box;
+      &:hover {
+        background-color: rgb(131, 36, 36);
+        // opacity: 1;
+        border: 1px  rgb(141, 134, 134);
+      
+        box-shadow: 1px 2px 2px 1px rgba(117, 46, 46, 0.25);;
+       
+      }
+  }
+  
+  .firstbloc{
+
+    display: flex;
+  justify-content: space-between;
+   margin-top: 6px;
+	align-items: center;
+  }
+  .nav {
+    margin: 10px;
+  }
+  .link {
+	color: #222;
+  text-decoration: none;
+  font-size: 20px;
+  &:hover{
+    text-decoration: underline;
+  color: #0a0a0a;
+ 
+
+}
+  }
+
+.secondbloc{
+ display: flex;
+ align-self: center;
+ justify-content: center;
+ margin :auto;
+ height: auto;
+}
+.thirdbloc{
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  margin :auto;
+  height: auto;
+  margin-left: 12px;
+ &.button{
+  @include button( #222 );
+}
+  &.button{
+  @include button( #451245 );
+
+}
+}
