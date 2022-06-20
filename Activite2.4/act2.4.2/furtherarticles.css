@@ -1,0 +1,40 @@
+.cards-body {
+  display: flex;
+}
+.cards-body .card {
+  border: none;
+  margin: 15px;
+}
+.cards-body .card-title {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: gray;
+}
+.cards-body .p {
+  color: gray;
+}
+.cards-body hr {
+  color: black;
+}
+.cards-body a {
+  font-family: "Times New Roman", Times, serif;
+}
+.cards-body a:link {
+  text-decoration: none;
+  color: black;
+}
+.cards-body a:link:hover {
+  opacity: 0.5;
+}
+.cards-body a.titre :hover {
+  text-decoration: underline;
+}
+.cards-body img {
+  width: 200;
+  height: 150px;
+}
+.cards-body a.a {
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+}/*# sourceMappingURL=furtherarticles.css.map */

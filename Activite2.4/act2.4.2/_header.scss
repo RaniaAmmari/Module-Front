@@ -2,7 +2,7 @@
 #navbar {
 	display: flex;
   justify-content: space-around;
-  height: 50px;
+  height: 70px;
   margin-top: 8px;
   align-items: center;
   margin-left: 120px;
@@ -99,4 +99,7 @@
 .sticky-bottom{
   width: 100% !important; 
   border-bottom:  1px solid rgb(184, 184, 184);
+  position:sticky;
+  top:0;
+  background-color: #fff;
 }

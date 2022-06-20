@@ -1,0 +1,41 @@
+.cards-body{
+        display: flex;
+    
+    .card{
+        border: none;
+        margin: 15px;
+    }
+    .card-title {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color: gray
+    }
+    .p{
+        color: gray 
+    }
+    hr{
+        color:black
+    }
+    a{
+        font-family: 'Times New Roman', Times, serif;
+        &:link { text-decoration: none; 
+        color: black;
+        &:hover{
+            opacity: 0.5;;
+        }}
+    }
+    a.titre{
+        :hover{
+            text-decoration:underline;
+        }
+    }
+    img{
+        width:200;
+        height:150px;
+    }
+    a.a{
+        font-size: 1.1875rem;
+    line-height: 1.4375rem;
+    }
+}
