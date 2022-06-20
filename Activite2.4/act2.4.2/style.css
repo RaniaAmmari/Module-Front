@@ -1,11 +1,11 @@
 #navbar {
   display: flex;
   justify-content: space-around;
+  height: 50px;
   margin-top: 8px;
   align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
-  border: #222;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 #grille {
@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 #grille:hover {
-  background-color: rgb(131, 36, 36);
+  opacity: 1;
   border: 1px rgb(141, 134, 134);
   box-shadow: 1px 2px 2px 1px rgba(117, 46, 46, 0.25);
 }
@@ -35,7 +35,8 @@
 .link {
   color: #222;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 17px;
+  font-family: gill Sans;
 }
 .link:hover {
   text-decoration: underline;
@@ -53,46 +54,45 @@
 .thirdbloc {
   display: flex;
   align-self: flex-end;
-  justify-content: center;
+  justify-content: space-around;
   margin: auto;
   height: auto;
   margin-left: 12px;
+  font-family: sans-serif;
 }
-.thirdbloc.button {
-  background-color: #222;
+.thirdbloc .button1 {
+  background-color: rgb(10, 103, 156);
   margin-left: 6px;
   margin-right: 6px;
-  padding-left: 17px;
-  padding-top: 10px;
-  padding-right: 17px;
-  padding-bottom: 10px;
-  font-size: 18px;
+  padding-left: 8px;
+  padding-top: 5px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  font-size: 14px;
   color: #fff;
   border-radius: 5px;
   border: 1px solid white;
   cursor: pointer;
 }
-.thirdbloc.button .button:hover {
-  color: rgb(70, 66, 66);
+.thirdbloc .button1:hover {
+  background-color: rgb(3, 63, 97);
   border: 1px solid lightgray;
   box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.25);
 }
-.thirdbloc.button {
-  background-color: #451245;
-  margin-left: 6px;
-  margin-right: 6px;
-  padding-left: 17px;
-  padding-top: 10px;
-  padding-right: 17px;
-  padding-bottom: 10px;
-  font-size: 18px;
-  color: #fff;
+.thirdbloc .button2 {
+  background-color: rgb(253, 254, 255);
+  font-size: 13px;
+  color: rgb(77, 73, 73);
   border-radius: 5px;
   border: 1px solid white;
   cursor: pointer;
 }
-.thirdbloc.button .button:hover {
-  color: rgb(70, 66, 66);
-  border: 1px solid lightgray;
-  box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.25);
+
+.bi-chevron-down {
+  color: #222;
+}
+
+.sticky-bottom {
+  width: 100% !important;
+  border-bottom: 1px solid rgb(184, 184, 184);
 }/*# sourceMappingURL=style.css.map */
