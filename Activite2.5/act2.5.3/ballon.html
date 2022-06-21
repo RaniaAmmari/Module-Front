@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="ballon.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("h1").click(function(){
+                    var varHeight = 10;
+                    var varWidth=10;
+                    var dimwidht=20;
+                    var dimheight=20;
+                if (( $( this ).innerHeight()<420)&&( $( this ).innerWidth()<420)){
+                    $( this ).innerHeight( $( this ).innerHeight()+varHeight  ).innerWidth( $( this ).innerWidth()+varWidth );
+                    //   if ( $(this).css('background-color')='red'){
+                    //     $("h1").click(function(){
+                    //      $(this).css('background-color', 'blue');})
+                    //            }
+                    //            else if ($(this).css('background-color')=='green')
+                    //            {
+                    //                $(this).css('background-color', 'blue')
+                    //             }
+                    //             // else{$(this).css('background-color', 'red')}
+                
+                    $(this).css("background-color", "pink" );
+                      $(this).css("background-color", "green" );
+                }
+                   if(( $( this ).innerHeight()==420)&&( $( this ).innerWidth()==420)){
+                    $(this).css("background-color", "red" );
+                    $(this).css("widht", "200");
+                    $(this).css("height", "200" );}
+                    if  ($("h1").mouseenter(function())){
+                           // $(this).css("background-color", "pink" );
+                             $("h1").mouseleave(function(){
+                          $( this ).innerHeight( $( this ).innerHeight()-dimheight ).innerWidth( $( this ).innerWidth()-dimwidht ); });
+                        $(this).css("background-color", "pink" );}
+  });
+                });
+
+
+ 
+            </script>
+    
+    </head>
+    <body>
+    
+        <h1 class="circle" ></h1>
+       
+        <!-- <h2 class="circle" c></h2> -->
+        
+    </body>
+    
+</html>
