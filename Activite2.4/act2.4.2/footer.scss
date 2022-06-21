@@ -79,4 +79,20 @@ footer{
             }
         }
     }
+    
 }
+.foo {
+    margin: 10px;
+    color:black;
+    border-bottom:  100px solid rgb(70, 22, 22);
+  }
+
+
+.sticky-top{
+    width: 100% !important; 
+    border-bottom:  1px solid rgb(184, 184, 184);
+    position:sticky;
+    bottom: 100px;;
+    top:0;
+    background-color: #fff;
+  }
